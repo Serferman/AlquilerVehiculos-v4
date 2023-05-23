@@ -1,0 +1,177 @@
+/* Parametros y configuración para los BOTONES principales de la ventana principal */
+
+.button {
+    -fx-background-radius: 10;
+    -fx-background-color: #FFFFFF;
+    -fx-scale-x: 1.0;
+    -fx-scale-y: 1.0;
+    -fx-transition: all 1s ease-in-out;
+    -fx-border-color: #414141;
+    -fx-border-radius: 10;
+    -fx-border-width: 3;
+    -fx-text-fill: #333333;
+}
+
+.button:hover {
+    -fx-background-color: #F2F2F2;
+    -fx-text-fill: #333333;
+    -fx-scale-x: 1.06;
+    -fx-scale-y: 1.06;
+}
+
+.button:pressed {
+    -fx-background-color: #E5E5E5;
+    -fx-text-fill: #333333;
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+}
+
+
+/* Parametros y configuración para la BARRA LATERAL de la ventana principal */
+
+#vbox-MenuBar {
+    -fx-background-color: #FFFFFF;
+    -fx-border-width: 0 2 0 0;
+    -fx-border-color: #414141;
+    -fx-effect: dropshadow(Three-pass-box, #000000, 8, 0, 0, 0 );
+}
+
+#vbox-MenuBar:hover {
+    -fx-background-color: #F2F2F2;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+
+/* Parametros y configuración para los BOTONES de la barra lateral de la ventana principal */
+
+#button-imageView {
+    -fx-border-width: 0;
+    -fx-background-color: #E5E5E5;
+    -fx-translate-y: -1;
+    -fx-background-radius: 5;
+}
+
+#button-imageView:hover {
+    -fx-translate-y: -5 ;
+    -fx-background-color: #c4c4c4;
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+}
+
+#button-imageView:pressed {
+    -fx-background-color: #E5E5E5;
+    -fx-translate-y: 0 ;
+}
+
+#stackPane-button-imageView {
+    -fx-border-radius: 5;
+    -fx-border-width: 3;
+    -fx-border-color: #414141;
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10;
+    -fx-min-width: 57;
+    -fx-min-height: 48;
+    
+}
+
+
+/* Parametros y configuración para la BARRA INFERIOR de la ventana principal */
+
+#hbox-botLine {
+    -fx-background-color: #CCCCCC;
+    -fx-border-width: 2 0 0 0;
+    -fx-border-color: #414141;
+    -fx-effect: dropshadow(Three-pass-box, #000000, 8, 0, 0, 0 );
+    -fx-max-width: 700;
+    -fx-max-height: 32;
+}
+
+#hbox-botLine:hover {
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+    -fx-background-color: #E5E5E5;
+}
+
+
+/* Parametros y configuración para los HYPERLINKS de la ventana principal */
+
+#hyperlink-imageView {
+    -fx-border-radius: 0;
+    -fx-border-width: 0;
+}
+
+#hyperlink-imageView:hover {
+    -fx-scale-x: 1.06;
+    -fx-scale-y: 1.06;
+    -fx-background-color: #E5E5E5;
+    -fx-background-radius: 3;
+}
+
+#hyperlink-imageView:pressed {
+    -fx-scale-x: 1.0;
+    -fx-scale-y: 1.0;
+    -fx-background-color: #CCCCCC;
+}
+
+
+/* Parametros y configuración para las ETIQUETAS principales de la ventana principal */
+
+#label-MainNames {
+    -fx-text-fill: #333333 ;
+}
+
+
+/* Parametros y configuración para los HBOX horizontales de la ventana principal */
+
+#hbox {
+    -fx-background-color: #F2F2F2;
+    -fx-background-radius: 10;
+    -fx-border-color: #CCCCCC;
+    -fx-border-radius: 10;
+    -fx-border-width: 3;
+}
+
+
+/* Parametros y configuración para el HBOX principal de la ventana principal */
+
+#hbox-MainScene {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 3;
+}
+
+
+/* Parametros y configuración para los separadores de la ventana principal */
+
+#separator-horizontal {
+    -fx-max-width: 46;
+    -fx-blend-mode: multiply;
+}
+
+#separator-vertical {
+    -fx-max-height: 110;
+    -fx-blend-mode: multiply;
+}
+
+
+/* Parametros y configuración para los separadores de la ventana principal */
+
+#estiloVboxMenuDesplegable {
+    -fx-background-color: #b4b4b4; 
+    -fx-effect: innershadow(Three-pass-box, black, 4, 0, 2, 0 ); 
+    -fx-border-width: 3 3 3 0; 
+    -fx-border-color:black; 
+    -fx-border-radius: 0 5 5 0; 
+    -fx-background-radius: 0 6 6 0;;
+}
+
+
+/* Parametros y configuración para los separadores de la ventana principal */
+
+#estiloBotonesMenuDesplegable {
+    -fx-background-color: #ebebeb; 
+    -fx-background-radius: 3; 
+    -fx-border-radius: 3; 
+    -fx-border-width: 0;
+}

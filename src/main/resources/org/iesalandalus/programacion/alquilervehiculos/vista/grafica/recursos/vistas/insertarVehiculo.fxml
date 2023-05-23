@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.iesalandalus.programacion.alquilervehiculos.vista.grafica.controladores.InsertarVehiculo">
+   <children>
+      <GridPane alignment="CENTER" hgap="20.0" prefHeight="59.0" prefWidth="394.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ChoiceBox fx:id="chbTipoVehiculo" nodeOrientation="LEFT_TO_RIGHT" prefWidth="150.0" styleClass="choiceBox" stylesheets="@../css/insertar_XXX.css" GridPane.columnIndex="1" />
+            <Label stylesheets="@../css/insertar_XXX.css" text="Tipo Vehiculo:" GridPane.halignment="RIGHT" GridPane.valignment="CENTER" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </VBox.margin>
+      </GridPane>
+      <StackPane prefHeight="399.0" prefWidth="394.0">
+         <children>
+            <GridPane alignment="CENTER" hgap="20.0" prefHeight="419.0" prefWidth="394.0" styleClass="grid-vehiculo" stylesheets="@../css/insertar_XXX.css">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="240.0" minWidth="10.0" prefWidth="240.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="240.0" prefWidth="240.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="116.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="116.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="116.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="116.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="128.0" minHeight="10.0" prefHeight="120.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="128.0" minHeight="10.0" prefHeight="120.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label stylesheets="@../css/insertar_XXX.css" text="Marca:" GridPane.halignment="RIGHT" GridPane.valignment="CENTER" />
+                  <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" stylesheets="@../css/insertar_XXX.css" text="Modelo:" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" stylesheets="@../css/insertar_XXX.css" text="Matricula:" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                  <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" stylesheets="@../css/insertar_XXX.css" text="Cilindradas:" GridPane.halignment="RIGHT" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <padding>
+                        <Insets right="5.0" />
+                     </padding>
+                     <font>
+                        <Font name="D050000L" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label stylesheets="@../css/insertar_XXX.css" text="Plazas:" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <padding>
+                        <Insets right="5.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="TOP_LEFT" stylesheets="@../css/insertar_XXX.css" text="PMA:" GridPane.halignment="RIGHT" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <padding>
+                        <Insets right="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="tfMarca" styleClass="textField" stylesheets="@../css/insertar_XXX.css" GridPane.columnIndex="1" />
+                  <TextField fx:id="tfModelo" styleClass="textField" stylesheets="@../css/insertar_XXX.css" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField fx:id="tfMatricula" styleClass="textField" stylesheets="@../css/insertar_XXX.css" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="tfCilindradas" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="38.0" prefWidth="164.0" styleClass="textField" stylesheets="@../css/insertar_XXX.css" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+                  <TextField fx:id="tfPlazas" styleClass="textField" stylesheets="@../css/insertar_XXX.css" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+                  <TextField fx:id="tfPMA" styleClass="textField" stylesheets="@../css/insertar_XXX.css" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+               </children>
+            </GridPane>
+         </children>
+      </StackPane>
+      <StackPane alignment="BOTTOM_RIGHT">
+         <children>
+            <HBox alignment="CENTER" prefHeight="28.0" prefWidth="394.0" spacing="10.0">
+               <children>
+                  <StackPane prefHeight="150.0" prefWidth="200.0" styleClass="stackPane-Aceptar" stylesheets="@../css/insertar_XXX.css">
+                     <children>
+                        <Button mnemonicParsing="false" onMouseClicked="#ratonPulsaAceptar" styleClass="button-Aceptar" stylesheets="@../css/insertar_XXX.css" text="Aceptar" />
+                     </children>
+                  </StackPane>
+                  <StackPane prefHeight="53.0" prefWidth="110.0" styleClass="stackPane-Cancelar" stylesheets="@../css/insertar_XXX.css">
+                     <children>
+                        <Button mnemonicParsing="false" onMouseClicked="#ratonPulsaCancelar" prefHeight="20.0" prefWidth="92.0" styleClass="button-Cancelar" stylesheets="@../css/insertar_XXX.css" text="Cancelar" />
+                     </children>
+                  </StackPane>
+               </children>
+            </HBox>
+            <StackPane maxHeight="43.0" maxWidth="7.0" styleClass="stackPane-Borrar" stylesheets="@../css/insertar_XXX.css">
+               <children>
+                  <Button maxWidth="12.0" mnemonicParsing="false" onMousePressed="#ratonPulsaBorrar" styleClass="button-Borrar" stylesheets="@../css/insertar_XXX.css">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Imagenes/Iconos%20-%20InsertarXXX/Papelera-Borrar.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <StackPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </StackPane.margin>
+            </StackPane>
+         </children>
+      </StackPane>
+   </children>
+</VBox>

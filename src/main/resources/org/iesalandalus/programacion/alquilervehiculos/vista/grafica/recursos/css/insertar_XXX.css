@@ -1,0 +1,180 @@
+/* Parametros generales para todos los CUADROS DE TEXTO de insertar clientes, vehiculos, alquileres  */
+
+.textField {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-scale-x: 1.0;
+    -fx-scale-y: 1.0;
+    -fx-max-width: 164;
+    -fx-max-height: 38;
+    -fx-font-family: Tahoma;
+    -fx-font-size: 14;
+}
+
+.textField:hover {
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+.textField:pressed {
+    -fx-scale-x: 1.0;
+    -fx-scale-y: 1.0;
+}
+
+
+/* Parametros y configuración para las ETIQUETAS de insertar clientes, vehiculos, alquileres */
+
+.label {
+    -fx-font-family: Tahoma;
+    -fx-font-weight: bold;
+    -fx-font-color: black;
+    -fx-font-size: 22;
+}
+
+
+/* Parametros y configuración para el boton ACEPTAR de insertar clientes, vehiculos, alquileres  */
+
+.button-Aceptar {
+    -fx-scale-x: 1.0;
+    -fx-scale-y: 1.0;
+    -fx-background-color: #6cb499;
+    -fx-font-family: Tahoma;
+    -fx-font-weight: bold;
+    -fx-font-color: black;
+    -fx-font-size: 16;
+}
+
+.button-Aceptar:hover {
+    -fx-translate-y: -5;
+}
+
+.button-Aceptar:pressed {
+    -fx-translate-y: 0;
+}
+
+.stackPane-Aceptar {
+    -fx-background-color: #015D52;
+    -fx-background-radius: 5;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+    -fx-max-height: 38;
+    -fx-max-width: 91;
+}
+
+
+/* Parametros y configuración para el boton CANCELAR de insertar clientes, vehiculos, alquileres  */
+
+.button-Cancelar {
+    -fx-background-color: #b46c6c;
+    -fx-font-family: Tahoma;
+    -fx-font-weight: bold;
+    -fx-font-color: black;
+    -fx-font-size: 16;
+    -fx-translate-y: -0.8;
+}
+
+.button-Cancelar:hover {
+    -fx-translate-y: -5;
+}
+
+.button-Cancelar:pressed {
+    -fx-translate-y: -0.8;
+}
+
+.stackPane-Cancelar {
+    -fx-background-color: #5d0101;
+    -fx-background-radius: 5;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+    -fx-max-height: 38;
+    -fx-max-width: 98;
+}
+
+
+/* Parametros y configuración para el boton BORRAR de insertar clientes, vehiculos, alquileres  */
+
+.button-Borrar {
+    -fx-translate-y: -0.8;
+    -fx-background-color: #969696;
+}
+
+.button-Borrar:hover {
+    -fx-translate-y: -5;
+}
+
+.button-Borrar:pressed {
+    -fx-translate-y: -0.8;
+}
+
+.stackPane-Borrar {
+    -fx-background-color: #2c2c2c;
+    -fx-background-radius: 5;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+}
+
+
+/* Parametros y configuración para la CAJA DE SELECCION de tipos de vehiculos de insertar vehiculo */
+
+.choiceBox {
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+
+/* Parametros y configuración para el SELECTOR DE FECHA de fecha de alquiler de insertar alquiler */
+
+.datePicker {
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-max-height: 38;
+    -fx-max-width:  164;
+}
+
+
+/* Parametros y configuración para el GRID PANEL de insertar alquiler */
+
+.grid-alquiler {
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: #ECE2C6;
+    -fx-max-height: 200;
+    -fx-max-width:  450;
+}
+
+
+/* Parametros y configuración para el GRID PANEL de insertar cliente */
+
+.grid-cliente {
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: #ECE2C6;
+    -fx-max-height: 170;
+    -fx-max-width:  370;
+}
+
+
+/* Parametros y configuración para el GRID PANEL de insertar vehiculo */
+
+.grid-vehiculo {
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: #ECE2C6;
+    -fx-max-height: 370;
+    -fx-max-width:  370;
+}

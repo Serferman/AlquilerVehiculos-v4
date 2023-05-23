@@ -1,0 +1,95 @@
+/* Parametros y configuración para el boton ACEPTAR de borrar clientes, vehiculos */
+
+.button-check {
+    -fx-background-color: #6cb499;  
+    -fx-font-family: Tahoma;
+    -fx-font-weight: bold;
+    -fx-font-color: black;
+    -fx-font-size: 16;
+    -fx-max-height: 43;
+    -fx-max-width: 48;
+}
+
+.button-check:hover {
+    -fx-translate-y: -5;
+}
+
+.button-check:pressed {
+    -fx-translate-y: 0;
+}
+
+.stackPane-check {
+    -fx-background-color: #015D52;
+    -fx-background-radius: 5;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+    -fx-max-height: 43;
+    -fx-max-width: 48;
+}
+
+
+/* Parametros y configuración para el boton CANCELAR de borrar clientes, vehiculos, alquileres  */
+
+.button-Cancelar {
+    -fx-background-color: #b46c6c;
+    -fx-font-family: Tahoma;
+    -fx-font-weight: bold;
+    -fx-font-color: black;
+    -fx-font-size: 16;
+    -fx-translate-y: -0.5;
+}
+
+.button-Cancelar:hover {
+    -fx-translate-y: -5;
+}
+
+.button-Cancelar:pressed {
+    -fx-translate-y: -0.5;
+}
+
+.stackPane-Cancelar {
+    -fx-background-color: #5d0101;
+    -fx-background-radius: 5;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+    -fx-max-height: 38;
+    -fx-max-width: 98;
+}
+
+
+/* Parametros y configuración para el boton BORRAR de borrar clientes, vehiculos  */
+
+.button-Borrar {
+    -fx-translate-y: -0.8;
+    -fx-background-color: #969696;
+}
+
+.button-Borrar:hover {
+    -fx-translate-y: -5;
+}
+
+.button-Borrar:pressed {
+    -fx-translate-y: -0.8;
+}
+
+.stackPane-Borrar {
+    -fx-background-color: #2c2c2c;
+    -fx-background-radius: 5;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+}
+
+
+/* Parametros y configuración para las LISTAS principales de borrar clientes, vehiculos, alquileres */
+
+.listView {
+    -fx-max-width: 380;
+    -fx-max-height: 80;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}

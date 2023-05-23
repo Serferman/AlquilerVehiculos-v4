@@ -1,0 +1,84 @@
+/* Parametros y configuración para el VBOX del menu de destacados de autor */
+
+.vbox-menuDestacados {
+    -fx-background-color: #dbe7ff;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+}
+
+
+/* Parametros y configuración para la BARRA inferior de autor*/
+
+.hbox-menuInferior {
+    -fx-background-color: #a3a2a2;
+    -fx-border-width: 0 0 0 0;
+    -fx-border-color:black;
+    -fx-effect: dropshadow(Three-pass-box, black, 8, 0, 0, 0 );
+}
+
+.hbox-menuInferior:hover {
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+    -fx-background-color: #b3b1b1;
+}
+
+
+/* Parametros y configuración para las IMAGENES de la parte inferior de autor */
+
+
+.hyperlink-imageView {
+    -fx-border-radius: 0;
+    -fx-border-width: 0;
+}
+
+.hyperlink-imageView:hover {
+    -fx-scale-x: 1.06;
+    -fx-scale-y: 1.06;
+    -fx-background-color: #dddbdb;
+    -fx-background-radius: 3;
+}
+
+.hyperlink-imageView:pressed {
+    -fx-scale-x: 1.0;
+    -fx-scale-y: 1.0;
+    -fx-background-color: #b3b1b1;
+}
+
+
+/* Parametros y configuración para la ETIQUETA del nombre de usuario del autor */
+
+.label-Nickname {
+    -fx-font-family: Tahoma;
+    -fx-font-weight: bold;
+    -fx-font-color: black;
+    -fx-font-size: 30;
+}
+
+
+/* Parametros y configuración para la ETIQUEDA del nombre y apellidos reales del autor */
+
+.label-NombreApellidos {
+    -fx-font-family: Tahoma;
+    -fx-font-weight: bold;
+    -fx-font-color: black;
+    -fx-font-size: 24;
+}
+
+
+/* Parametros y configuración para la ETIQUETA de destacados de autor */
+
+.label-Destacados {
+    -fx-font-family: Tahoma;
+    -fx-font-weight: bold;
+    -fx-font-color: black;
+    -fx-font-size: 18;
+}
+
+
+/* Parametros y configuración del VOBX principal de autor */
+
+.vbox-MainScene {
+    -fx-background-color: #e0e0e0;
+    -fx-border-color: black;
+    -fx-border-width: 0;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="BOTTOM_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.iesalandalus.programacion.alquilervehiculos.vista.grafica.controladores.ListarVehiculos">
+   <children>
+      <HBox alignment="CENTER" prefHeight="108.0" prefWidth="600.0" spacing="40.0">
+         <children>
+            <RadioButton fx:id="rdTurismos" mnemonicParsing="false" text="Turismos" />
+            <RadioButton fx:id="rdAutobuses" mnemonicParsing="false" text="Autobuses" />
+            <RadioButton fx:id="rdFurgoneta" mnemonicParsing="false" text="Furgoneta" />
+         </children>
+      </HBox>
+      <TableView fx:id="tvVehiculos" prefHeight="257.0" prefWidth="600.0" />
+   </children>
+</VBox>

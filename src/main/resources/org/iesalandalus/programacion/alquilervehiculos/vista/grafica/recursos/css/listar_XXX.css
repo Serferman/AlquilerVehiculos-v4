@@ -1,0 +1,62 @@
+/* Parametros generales para todos los CUADROS DE TEXTO de buscar cliente , vehiculo  */
+
+.textField {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-scale-x: 1.0;
+    -fx-scale-y: 1.0;
+    -fx-max-width: 164;
+    -fx-max-height: 38;
+    -fx-font-family: Tahoma;
+    -fx-font-size: 14;
+}
+
+.textField:hover {
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+.textField:pressed {
+    -fx-scale-x: 1.0;
+    -fx-scale-y: 1.0;
+}
+
+
+/* Parametros y configuración para el boton ACEPTAR de buscar clientes, vehiculos */
+
+.button-check {
+    -fx-background-color: #6cb499;  
+    -fx-max-height: 32;
+    -fx-max-width: 36;
+    -fx-translate-y: -0.5;
+}
+
+.button-check:hover {
+    -fx-translate-y: -5;
+}
+
+.button-check:pressed {
+    -fx-translate-y: 0;
+}
+
+.stackPane-check {
+    -fx-background-color: #015D52;
+    -fx-background-radius: 5;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+    -fx-max-height: 40;
+    -fx-max-width: 42;
+}
+
+
+/* Parametros y configuración para las ETIQUETAS principales de buscar clientes, vehiculos, alquileres */
+
+.label {
+    -fx-font-family: Tahoma;
+    -fx-font-weight: bold;
+    -fx-font-color: black;
+    -fx-font-size: 22;
+}
