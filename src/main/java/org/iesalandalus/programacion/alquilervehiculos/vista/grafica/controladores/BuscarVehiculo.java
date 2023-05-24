@@ -13,6 +13,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.WindowEvent;
 
 public class BuscarVehiculo extends Controlador {
 
@@ -130,4 +131,15 @@ public class BuscarVehiculo extends Controlador {
 		}
 	}
 
+   void ventanaCerrada(WindowEvent event) {
+	   	lMarca.setText(null);
+		lModelo.setText(null);
+		lMatricula.setText(null);
+		lCIlindradas.setText(null);
+		lPlazas.setText(null);
+		lPMA.setText(null);
+		tfMatriculaBuscado.clear();
+		tfMatriculaBuscado.setStyle(null);
+	}
+	
 }

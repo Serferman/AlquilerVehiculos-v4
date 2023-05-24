@@ -18,6 +18,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.WindowEvent;
 
 public class ListarAlquileres extends Controlador {
 
@@ -283,5 +284,12 @@ public class ListarAlquileres extends Controlador {
 
 		tvAlquileres.setItems(FXCollections.observableList(VistaGrafica.getInstancia().getControlador().getAlquileres(Vehiculo.getVehiculoConMatricula(tfVehiculos.getText()))));
 
+	}
+	
+	void ventanaCerrada(WindowEvent event) {
+		tfClientes.clear();
+		tfClientes.setStyle(null);
+		tfVehiculos.clear();
+		tfVehiculos.setStyle(null);
 	}
 }

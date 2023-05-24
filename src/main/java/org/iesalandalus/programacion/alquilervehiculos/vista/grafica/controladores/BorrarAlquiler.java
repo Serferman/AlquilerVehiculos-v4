@@ -14,6 +14,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.WindowEvent;
 
 public class BorrarAlquiler extends Controlador {
 
@@ -62,4 +63,7 @@ public class BorrarAlquiler extends Controlador {
 		getEscenario().close();
 	}
 	
+	void ventanaCerrada(WindowEvent event) {
+		dpFechaAlquiler.setValue(null);
+	}
 }

@@ -10,6 +10,7 @@ import org.iesalandalus.programacion.alquilervehiculos.vista.grafica.utilidades.
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.WindowEvent;
 
 public class InsertarCliente extends Controlador {
 
@@ -59,4 +60,10 @@ public class InsertarCliente extends Controlador {
     	tfDni.clear();
     	tfTelefono.clear();
     }
+    
+    void ventanaCerrada(WindowEvent event) {
+    	tfNombre.clear();
+    	tfDni.clear();
+    	tfTelefono.clear();
+	}
 }

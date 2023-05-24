@@ -373,16 +373,64 @@
             </StackPane>
             <HBox id="hbox-botLine" alignment="CENTER" maxHeight="32.0" maxWidth="668.0" stylesheets="@../css/VentanaPrincipal.css">
                <children>
-                  <Hyperlink id="hyperlink-imageView" ellipsisString="" onAction="#ratonPresionaHyperlinkGithub" stylesheets="@../css/VentanaPrincipal.css">
+                  <Hyperlink id="hyperlink-imageView" ellipsisString="" onAction="#ratonPresionaHyperlinkGithubV0" stylesheets="@../css/VentanaPrincipal.css">
                      <graphic>
                         <ImageView fitHeight="27.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../Imagenes/Iconos%20-%20MenuInferior/Github.png" />
+                              <Image url="@../Imagenes/Iconos%20-%20MenuInferior/Github-v0.png" />
                            </image>
                         </ImageView>
                      </graphic>
                      <HBox.margin>
-                        <Insets right="5.0" />
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </Hyperlink>
+                  <Hyperlink id="hyperlink-imageView" ellipsisString="" onAction="#ratonPresionaHyperlinkGithubV1" stylesheets="@../css/VentanaPrincipal.css">
+                     <graphic>
+                        <ImageView fitHeight="27.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Imagenes/Iconos%20-%20MenuInferior/Github-v1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </Hyperlink>
+                  <Hyperlink id="hyperlink-imageView" ellipsisString="" onAction="#ratonPresionaHyperlinkGithubV2" stylesheets="@../css/VentanaPrincipal.css">
+                     <graphic>
+                        <ImageView fitHeight="27.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Imagenes/Iconos%20-%20MenuInferior/Github-v2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </Hyperlink>
+                  <Hyperlink id="hyperlink-imageView" ellipsisString="" onAction="#ratonPresionaHyperlinkGithubV3" stylesheets="@../css/VentanaPrincipal.css">
+                     <graphic>
+                        <ImageView fitHeight="27.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Imagenes/Iconos%20-%20MenuInferior/Github-v3.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </Hyperlink>
+                  <Hyperlink id="hyperlink-imageView" ellipsisString="" onAction="#ratonPresionaHyperlinkGithubV4" stylesheets="@../css/VentanaPrincipal.css">
+                     <graphic>
+                        <ImageView fitHeight="27.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Imagenes/Iconos%20-%20MenuInferior/Github-v4.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
                      </HBox.margin>
                   </Hyperlink>
                </children>

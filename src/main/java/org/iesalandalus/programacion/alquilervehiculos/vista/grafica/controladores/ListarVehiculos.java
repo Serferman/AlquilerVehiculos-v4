@@ -17,6 +17,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.WindowEvent;
 
 public class ListarVehiculos extends Controlador {
 
@@ -31,6 +32,8 @@ public class ListarVehiculos extends Controlador {
 
 	@FXML
 	private RadioButton rdTurismos;
+	
+	private ToggleGroup grupoRadioButtons;
 
 	private static final String ESTILO_CENTRADO_4_COLUMNAS = "-fx-alignment: CENTER; -fx-max-width: 100;";
 	private static final String ESTILO_CENTRADO_5_COLUMNAS = "-fx-alignment: CENTER; -fx-max-width: 80;";
@@ -52,7 +55,7 @@ public class ListarVehiculos extends Controlador {
 	@FXML
 	void initialize() {
 
-		ToggleGroup grupoRadioButtons = new ToggleGroup();
+		grupoRadioButtons = new ToggleGroup();
 	
 		rdAutobuses.selectedProperty().addListener(e -> construirTablaAutobuses());
 		rdFurgoneta.selectedProperty().addListener(e -> construirTablaFurgoneta());
@@ -178,5 +181,9 @@ public class ListarVehiculos extends Controlador {
 			tvVehiculos.getColumns().clear();
 		}
 	}
-
+	
+	void ventanaCerrada(WindowEvent event) {
+		grupoRadioButtons.selectToggle(null);
+	}
+	
 }

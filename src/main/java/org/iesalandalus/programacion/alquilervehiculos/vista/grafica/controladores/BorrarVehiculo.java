@@ -10,6 +10,7 @@ import org.iesalandalus.programacion.alquilervehiculos.vista.grafica.utilidades.
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.WindowEvent;
 
 public class BorrarVehiculo extends Controlador {
 
@@ -38,4 +39,8 @@ public class BorrarVehiculo extends Controlador {
     	
     	getEscenario().close();
     }
+    
+    void ventanaCerrada(WindowEvent event) {
+    	tfMatriculaBuscado.clear();
+	}
 }

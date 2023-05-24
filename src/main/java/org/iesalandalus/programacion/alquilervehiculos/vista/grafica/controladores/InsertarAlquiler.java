@@ -15,6 +15,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.WindowEvent;
 
 public class InsertarAlquiler extends Controlador {
 
@@ -63,4 +64,10 @@ public class InsertarAlquiler extends Controlador {
     	tfMatricula.clear();
     	dpFechaAlquiler.setValue(null);
     }
+    
+    void ventanaCerrada(WindowEvent event) {
+    	tfDni.clear();
+    	tfMatricula.clear();
+    	dpFechaAlquiler.setValue(null);
+	}
 }

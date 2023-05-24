@@ -12,6 +12,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.WindowEvent;
 
 public class BuscarAlquiler extends Controlador {
 
@@ -26,7 +27,7 @@ public class BuscarAlquiler extends Controlador {
 
 	@FXML
 	void initialize() {
-		lvClientes.setItems(FXCollections.observableList(VistaGrafica.getInstancia().getControlador().getClientes()));
+ 		lvClientes.setItems(FXCollections.observableList(VistaGrafica.getInstancia().getControlador().getClientes()));
 		lvVehiculos.setItems(FXCollections.observableList(VistaGrafica.getInstancia().getControlador().getVehiculos()));
 	}
 
@@ -58,4 +59,7 @@ public class BuscarAlquiler extends Controlador {
 		getEscenario().close();
 	}
 
+    void ventanaCerrada(WindowEvent event) {
+    	dpFechaAlquiler.setValue(null);
+	}
 }

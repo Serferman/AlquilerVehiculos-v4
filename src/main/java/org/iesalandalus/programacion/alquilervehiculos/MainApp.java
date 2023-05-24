@@ -28,7 +28,7 @@ public class MainApp {
 	}
 
 	private static Modelo procesarArgumentosDatos(String[] arg) {
-		Modelo modelo = new ModeloCascada(FactoriaFuenteDatos.MONGODB);
+		Modelo modelo = new ModeloCascada(FactoriaFuenteDatos.MARIADB);
 
 		for (String argObtenido : arg) {
 			if (argObtenido.equalsIgnoreCase("-fdficheros")) {

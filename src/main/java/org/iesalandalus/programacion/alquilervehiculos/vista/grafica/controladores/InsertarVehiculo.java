@@ -15,6 +15,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.WindowEvent;
 
 public class InsertarVehiculo extends Controlador {
     
@@ -52,7 +53,7 @@ public class InsertarVehiculo extends Controlador {
 		chbTipoVehiculo.valueProperty().addListener(nv -> comprobarTipoVehiculo());
     }
     
-    void comprobarTipoVehiculo() {
+	void comprobarTipoVehiculo() {
     	
 		String opcionSeleccionada = chbTipoVehiculo.valueProperty().getValue();
 		
@@ -149,4 +150,15 @@ public class InsertarVehiculo extends Controlador {
     	tfPlazas.clear();
     	tfPMA.clear();
     }
+    
+    void ventanaCerrada(WindowEvent event) {
+    	chbTipoVehiculo.valueProperty().setValue(null);
+    	
+    	tfMarca.clear();
+    	tfModelo.clear();
+    	tfMatricula.clear();
+    	tfCilindradas.clear();
+    	tfPlazas.clear();
+    	tfPMA.clear();
+	}
 }

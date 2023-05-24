@@ -61,11 +61,11 @@ public class Vehiculos implements IVehiculos {
 		Vehiculo vehiculo = null;
 		if (documento != null) {
 			if (documento.getString(TIPO).equals(TURISMO)) {
-				vehiculo = new Turismo(MARCA, MODELO,documento.getInteger(CILINDRADA) , MATRICULA);
+				vehiculo = new Turismo(documento.getString(MARCA), documento.getString(MODELO),documento.getInteger(CILINDRADA) , documento.getString(MATRICULA));
 			} else if (documento.getString(TIPO).equals(AUTOBUS)) {
-				vehiculo = new Autobus(MARCA, MODELO, documento.getInteger(PLAZAS), MATRICULA);
+				vehiculo = new Autobus(documento.getString(MARCA), documento.getString(MODELO), documento.getInteger(PLAZAS), documento.getString(MATRICULA));
 			} else if (documento.getString(TIPO).equals(FURGONETA)) {
-				vehiculo = new Furgoneta(MARCA, MODELO, documento.getInteger(PMA), documento.getInteger(PLAZAS), MATRICULA);
+				vehiculo = new Furgoneta(documento.getString(MARCA), documento.getString(MODELO), documento.getInteger(PMA), documento.getInteger(PLAZAS), documento.getString(MATRICULA));
 			}
 		}
 		return vehiculo;

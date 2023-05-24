@@ -10,6 +10,7 @@ import org.iesalandalus.programacion.alquilervehiculos.vista.grafica.utilidades.
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.WindowEvent;
 
 public class BorrarCliente extends Controlador {
 
@@ -39,5 +40,7 @@ public class BorrarCliente extends Controlador {
     	getEscenario().close();
     }
 
-	
+	void ventanaCerrada(WindowEvent event) {
+    	tfDniBuscado.clear();
+	}
 }
