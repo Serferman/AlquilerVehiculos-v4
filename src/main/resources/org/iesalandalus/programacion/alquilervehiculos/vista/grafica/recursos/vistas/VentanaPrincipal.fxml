@@ -94,7 +94,7 @@
          <children>
             <StackPane alignment="CENTER_LEFT" prefHeight="150.0" prefWidth="200.0">
                <children>
-                  <VBox prefHeight="594.0" prefWidth="668.0">
+                  <VBox prefHeight="572.0" prefWidth="686.0">
                      <children>
                         <HBox id="hbox" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" stylesheets="@../css/VentanaPrincipal.css">
                            <children>
@@ -371,7 +371,7 @@
                   <StackPane fx:id="stackPaneMenuDesplegable" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="250.0" prefWidth="100.0" translateY="16.0" />
                </children>
             </StackPane>
-            <HBox id="hbox-botLine" alignment="CENTER" maxHeight="32.0" maxWidth="668.0" stylesheets="@../css/VentanaPrincipal.css">
+            <HBox id="hbox-botLine" alignment="CENTER" maxHeight="36.0" maxWidth="668.0" prefHeight="36.0" prefWidth="686.0" stylesheets="@../css/VentanaPrincipal.css">
                <children>
                   <Hyperlink id="hyperlink-imageView" ellipsisString="" onAction="#ratonPresionaHyperlinkGithubV0" stylesheets="@../css/VentanaPrincipal.css">
                      <graphic>
