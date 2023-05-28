@@ -4,8 +4,18 @@
 
 En esta version del proyecto nos centraremos en migrar el modelo de datos que teniamos "ficheros" XML (Clientes, Vehiculos, Alquileres), a las bases de datos MongoDB y MariaDB.
 
-<img src="src/main/resources/org/iesalandalus/programacion/alquilervehiculos/vista/grafica/recursos/draw.io/VentanaPrincipal.png" padding="10px"/>
+<table>
+  <tr>
+    <td> <img src="src/main/resources/org/iesalandalus/programacion/alquilervehiculos/vista/grafica/recursos/draw.io/VentanaPrincipal.png"/> <td>
+  </tr>
+</table>
 
-<center>
-  <img src="src/main/resources/org/iesalandalus/programacion/alquilervehiculos/vista/grafica/recursos/draw.io/InsetarXXX.png" align="center" width=80% padding="10px"/>
-</center>
+<br>
+
+<table>
+  <tr>
+   <td>
+      <div align="center"> <img src="src/main/resources/org/iesalandalus/programacion/alquilervehiculos/vista/grafica/recursos/draw.io/InsetarXXX.png" width="80%"/> </div>
+   </td>
+  </tr>
+</table>
