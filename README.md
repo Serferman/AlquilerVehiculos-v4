@@ -15,7 +15,15 @@ En esta version del proyecto nos centraremos en migrar el modelo de datos que te
 <table>
   <tr>
    <td>
-      <div align="center"> <img src="src/main/resources/org/iesalandalus/programacion/alquilervehiculos/vista/grafica/recursos/draw.io/InsetarXXX.png" width="80%"/> </div>
+      <div align="center"> <img src="src/main/resources/org/iesalandalus/programacion/alquilervehiculos/vista/grafica/recursos/draw.io/InsertarXXX.png" width="80%"/> </div>
+   </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+   <td>
+      <div align="center"> <img src="src/main/resources/org/iesalandalus/programacion/alquilervehiculos/vista/grafica/recursos/draw.io/BuscarXXX.png" width="80%"/> </div>
    </td>
   </tr>
 </table>
